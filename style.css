@@ -80,3 +80,35 @@
 
     
 }
+@media screen and (max-width:320px){
+    .logo {
+        width: 50px;
+        margin-bottom: 2em;
+    }
+    ::placeholder{
+        font-size: 2.5em;
+    }
+    #botao_criptografar{
+        margin-left: 3.5em;
+        width: 40em;
+        height: 7em;
+        
+    }
+    #botao_descriptografar{
+        width: 40em;
+        margin-left: 3.5em ;
+        margin-top: 600px;
+        height: 7em;
+    }
+    .campo_texto_descriptografar{
+        
+        margin-top: 800px;
+       height: 10em;
+
+    }
+    button{
+        font-size: 20;
+       
+    }
+    
+}
