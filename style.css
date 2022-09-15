@@ -1,0 +1,82 @@
+@media screen and (max-width:768px){
+
+    body {
+        background : rgb(236, 242, 245)
+    
+    }
+    .logo {
+        margin-top: 1.5em;
+        margin-left:1.5em;  
+    }
+    ::placeholder{
+        color: darkblue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+      .campo_texto_criptografar {
+       position: absolute;
+       font-size: 25px;
+       width: 23em;
+       margin-left: 2.3em;
+       margin-top: 25px;
+       height: 400px;
+       outline: none;
+       border: none;
+       background : rgb(236, 242, 245);
+       font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+      
+    }
+     #botao_criptografar {
+         position: absolute;
+         margin-top: 470px;
+         margin-left: 7.5em;
+         width: 220px;
+         padding: 1em;
+         border-radius: 20px;
+         background: darkblue;
+         color: aliceblue;
+         border: none;
+         
+     }
+     #botao_descriptografar{
+        position: absolute;
+        margin-top: 470px;
+        margin-left: 27em;
+        width: 220px ;
+        padding: 1em;
+         border-radius: 20px;
+         background: #e5e5e5d6;
+         color: rgb(1, 28, 110);
+         border-color: rgb(4, 4, 118);
+      
+
+     }
+     button {
+        cursor: pointer;
+
+     }
+     .caixa_botoes{
+         margin-top: 30px;
+         margin:10px;
+     }
+     .campo_texto_descriptografar {
+        position: absolute;
+        margin-top: 560px;
+        margin-left: 3.5em;
+        width: 19em;
+        height: 120px;
+        border-radius: 20px;
+         border:none;
+      box-shadow: 0px 24px 32px -8px rgb(186, 186, 186);
+      font-size: 26px;   
+         color:black;
+         background:white;
+         outline:none;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         
+
+     }
+    
+
+    
+}

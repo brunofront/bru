@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css" >
+    <link rel="stylesheet" href="style.css" >
+    <title>Decodificador</title>
+</head>
+ <body>
+
+    <header class="cabeçalho">
+        <h1>
+            <img class="logo" src="logo.png">
+        </h1>
+    </header>
+
+    <main>
+
+  <div class="corpo_lado_left">
+        <section class="caixa_criptografar">
+            <textarea class="campo_texto_criptografar" name="texto" placeholder="Digite seu texto"></textarea>   
+        </section>
+
+      
+        
+            <section  class="caixa_botao_criptografar"> 
+                <button id="botao_criptografar" onclick="btnEncriptar()">Criptografar </button>
+            </section>
+
+            <section class="caixa_botao_descriptografar"  >
+                <button id="botao_descriptografar" onclick="btnDesencriptar()">Descriptografar</button>
+            </section>
+
+      
+
+    </div>
+     
+        <section class="campo_criptografado">
+            <textarea class="campo_texto_descriptografar" name="texto" ></textarea>
+        </section>
+        
+
+    </main>
+
+    <footer>
+        <p></p>
+    </footer>
+
+ <script src="script.js"></script>
+    
+ </body>
+</html>
