@@ -29,7 +29,7 @@
      #botao_criptografar {
          position: absolute;
          margin-top: 470px;
-         margin-left: 7.5em;
+         margin-left: 6.0em;
          width: 220px;
          padding: 1em;
          border-radius: 20px;
@@ -41,7 +41,7 @@
      #botao_descriptografar{
         position: absolute;
         margin-top: 470px;
-        margin-left: 27em;
+        margin-left: 25em;
         width: 220px ;
         padding: 1em;
          border-radius: 20px;
@@ -62,7 +62,7 @@
      .campo_texto_descriptografar {
         position: absolute;
         margin-top: 560px;
-        margin-left: 3.5em;
+        margin-left: 2.5em;
         width: 19em;
         height: 120px;
         border-radius: 20px;
