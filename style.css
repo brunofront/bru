@@ -112,3 +112,42 @@
     }
     
 }
+@media screen and (max-width:380px){
+
+    .logo{
+        width:20px;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+    .campo_texto_criptografar {
+        margin-left: 3em;
+        font-size: 0.8em;
+        
+    }
+    ::placeholder {
+         font-size: 1.3em;
+    }
+    #botao_criptografar {
+         margin-left: 2em;
+         margin-top: 170px;
+         width: 200px;
+
+    }
+    #botao_descriptografar{
+        margin-left: 2em;
+        margin-top: 220px;
+        width: 200px;
+        
+
+
+    }
+    .campo_texto_descriptografar{
+        margin-left: 0.6em;
+        margin-top: 280px;
+        width: 230px;
+        height: 90px;
+        margin-bottom: 0;
+
+    }
+    
+}
